@@ -3,7 +3,7 @@
 yay -S paru
 # Hyprland Stuff
 paru -S hyprland-git hyprpicker-git waybar-hyprland-git \
-dunst nwg-look wf-recorder wlogout wlsunset hyprpaper
+dunst nwg-look wlogout wlsunset hyprpaper
 # Dependencies
 paru -S colord ffmpegthumbnailer gnome-keyring grimblast-git gtk-engine-murrine \
 imagemagick kvantum pamixer playerctl polkit-kde-agent qt5-quickcontrols        \
@@ -21,7 +21,13 @@ paru -S code code-features code-marketplace
 # Theme Based
 paru -S catppuccin-gtk-theme papirus-icon-theme sddm-git swaylock-effects-git
 # Pipewire & OBS
-paru -S obs-studio-rc ffmpeg-obs cef-minimal-obs-rc-bin   \
-pipewire pipewire-alsa pipewire-audio pipewire-pulse      \
+paru -S pipewire pipewire-alsa pipewire-audio pipewire-pulse  \
 pipewire-jack wireplumber gst-plugin-pipewire pavucontrol
-
+#copy dotfiles to .config
+cp -r ./cava ~/.config/
+cp -r ./dunst ~/.config/
+cp -r ./hypr ~/.config/
+cp -r ./kitty ~/.config/
+cp -r ./rofi ~/.config/
+cp -r ./swaylock ~/.config/
+cp -r ./waybar ~/.config/
