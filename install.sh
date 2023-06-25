@@ -1,6 +1,8 @@
 #!/bin/bash
 #Install Script for my dotfiles and the dependencies.
 yay -S paru
+# login manager
+paru -S Ly
 # Hyprland Stuff
 paru -S hyprland-git hyprpicker-git waybar-hyprland-git \
 dunst nwg-look wlogout wlsunset hyprpaper
@@ -31,3 +33,6 @@ cp -r ./kitty ~/.config/
 cp -r ./rofi ~/.config/
 cp -r ./swaylock ~/.config/
 cp -r ./waybar ~/.config/
+#copy wallpaper to Pictures
+mkdir ~/Pictures/Wallpapers
+cp ./2.jpg ~/Pictures/Wallpapers/
