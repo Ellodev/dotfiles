@@ -4,7 +4,7 @@ yay -S paru
 # login manager
 paru -S Ly
 # Hyprland Stuff
-paru -S hyprland-git hyprpicker-git waybar-hyprland-git \
+paru -S hyprland-git hyprpicker-git waybar-hyprland-git waypaper-git \
 dunst nwg-look wlogout wlsunset hyprpaper
 # Dependencies
 paru -S colord ffmpegthumbnailer gnome-keyring grimblast-git gtk-engine-murrine \
@@ -35,4 +35,4 @@ cp -r ./swaylock ~/.config/
 cp -r ./waybar ~/.config/
 #copy wallpaper to Pictures
 mkdir ~/Pictures/Wallpapers
-cp ./2.jpg ~/Pictures/Wallpapers/
+cp ./Wallpapers ~Pictures/Wallpapers
