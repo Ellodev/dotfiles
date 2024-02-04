@@ -1,6 +1,5 @@
 #!/bin/bash
 #Install Script for my dotfiles and the dependencies.
-yay -S paru
 # login manager
 paru -S Ly
 # Hyprland Stuff
